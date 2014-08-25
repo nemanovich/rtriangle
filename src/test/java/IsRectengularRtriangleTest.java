@@ -43,7 +43,7 @@ public class IsRectengularRtriangleTest {
 
 	@Test
 	public final void testIsNotRectangularWhenDegenerateTriangle() {
-		Rtriangle triangle = mockRtriangle(1, 1, 1,	1, 2, 3);
+		Rtriangle triangle = mockRtriangle(1, 1, 1, 1, 2, 3);
 		assertFalse(RtriangleProviderTest.isRectangular(triangle));
 	}
 }
